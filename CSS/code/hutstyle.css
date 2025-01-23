@@ -1,0 +1,63 @@
+body{
+    background-color: lightskyblue;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.scene{
+    position: relative;
+}
+.sun{
+    position: left;
+    top:50px;
+    left: 50px;
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 5px yellow;
+}
+.hut{
+    position: relative;
+    width: 200px;
+}
+.roof{
+    width:0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid black;
+    position: relative;
+    margin: 0 auto;
+}
+.body{
+    width: 200px;
+    height: 200px;
+    background-color: darkgray;
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction:column;
+    margin: 0 auto;
+}
+.door{
+    width: 50px;
+    height: 80px;
+    background-color: darkred;
+    border:2px solid black;
+    position: absolute;
+    bottom:10px;
+    left:50%;
+}
+.window{
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    border: 2px solid black;
+    position: absolute;
+    top:30px;
+    left: 50%;
+}
