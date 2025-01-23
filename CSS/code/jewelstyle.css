@@ -1,0 +1,289 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.nav {
+    height: 50px;
+    width: 100vw;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(206, 173, 134, 255);
+    white-space: nowrap;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav ul li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.nav ul li a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.page {
+    height: 100vh;
+    background-image: url(../Gemsofexcellence/gemsimg/home-2-hotspot-img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    justify-content: center;
+}
+
+.button {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: darkorange;
+}
+
+/* Exquisite Pieces Section */
+.exquisite-pieces {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.exquisite-pieces h3 {
+    color: rgba(206, 173, 134, 255);
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.exquisite-pieces h6 {
+    color: black;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+/* Necklace Section */
+.necklace-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 40px; 
+    margin-top: 25px;
+    width: 100%; 
+}
+
+.necklace-item {
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.necklace-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 175px; 
+    border-radius: 8px;
+    margin-bottom: 10px; 
+}
+
+.necklace1 {
+    background-image: url(../Gemsofexcellence/gemsimg/necklace1.webp);
+}
+
+.necklace2 {
+    background-image: url(../Gemsofexcellence/gemsimg/necklace2.webp);
+}
+
+.necklace3 {
+    background-image: url(../Gemsofexcellence/gemsimg/necklace3.webp);
+}
+
+.necklace-item h4 {
+    font-size: 22px;
+    color: rgba(206, 173, 134, 255);
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.necklace-item p {
+    font-size: 18px;
+    color: gray;
+    margin: 5px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: black;
+    margin: 10px 0;
+}
+
+.add-to-cart {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background-color: darkorange;
+}
+.main2 {
+    height: 100vh; 
+    background-image: url(../Gemsofexcellence/gemsimg/bg-header.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+    position: relative;
+    filter: saturate(1.5); 
+}
+
+.main3 {
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    position: relative;
+}
+
+.about-us h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(206, 173, 134, 255);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    max-width: 1200px;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.text-content {
+    flex: 1; 
+    font-size: 18px;
+    color: black;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+.image-content {
+    flex: 1; 
+    background-image: url('../Gemsofexcellence/gemsimg/img3.webp'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.main3 .main4 {
+    height: 150px;
+    width: 100vw;
+    background-color: rgba(206, 173, 134, 255);
+    /* position: absolute; */ 
+    top: 70%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start; 
+    padding: 20px 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.main3 .main4 h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin: 0; 
+    text-align: center; 
+}
+.main3 .main4 .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    max-width: 1200px;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.main3 .main4 .text-content {
+    flex: 1; 
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+    padding: 10px;
+    text-align: center;   
+}
+.main3 .footer{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    color:rgba(206, 173, 134, 255);
+    bottom: 10px;
+}
