@@ -1,0 +1,123 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section 1: Main */
+.main {
+    height: 100vh; 
+    background-image: url(../images/background5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.main p {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: lightgoldenrodyellow;
+    text-shadow: 4px 4px 10px rgba(188,28,1,255);
+    font-weight: bold;
+}
+
+/* Section 2: Main2 */
+.main2 {
+    height: 100vh; 
+    background-image: url(../images/car1.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+    position: relative;
+}
+
+.main2 .text-content {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 30%
+}
+
+.main2 .text-content p {
+    font-size: 22px;
+    color: lightgoldenrodyellow;
+    text-shadow: 2px 2px 5px rgba(188, 28, 1, 1);
+    text-transform: none;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/* Section 3 */
+
+.main3 {
+    height: 100vh; 
+    background-image: url(../images/car2.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.main3 .text-content1 {
+    position: relative; 
+    top: 20%; 
+    left: 5%; 
+    width: 40%; 
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+.main3 .text-content1 p {
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: lightgoldenrodyellow;
+    text-shadow: 4px 4px 10px rgba(188,28,1,255);
+    font-weight: bold;
+    text-align: left; 
+    line-height: 1.5;
+}
+
+
+/* Section 4 */
+.main4 {
+    height: 100vh; 
+    background-image: url(../images/interior1.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.main4 .text-content2 {
+    position: relative;
+    top: 35%; 
+    left: 10%; 
+    width: 80%; 
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    border-radius: 10px; 
+    text-align: center;
+}
+
+.main4 .text-content2 p {
+    font-size: 80px;
+    color: lightgoldenrodyellow;
+    text-shadow: 2px 2px 5px rgba(188,28,1,255);
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 0;
+    line-height: 1.5;
+}
