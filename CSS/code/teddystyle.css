@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.teddy{
+    margin-top: 200px;
+    margin-left: 50%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+.head{
+    position: relative;
+    width: 85px;
+    height: 80px;
+    background-color: #9e5418;
+    border-radius: 50px;
+    margin-bottom: -8px;
+}
+.ear1{
+    position: absolute;
+    top:-5px;
+    left: -5px;
+    background-color: #9e5418;
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+}
+.ear2{
+    position: absolute;
+    top:-5px;
+    right: -5px;
+    background-color: #9e5418;
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+}
+.eye1{
+    position: absolute;
+    top: 25%;
+    right: 18px;
+    background-color:black;
+    width:16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.eye1 .w , .eye2 .w{
+     position: absolute;
+     width: 6px;
+     height: 6px;
+     margin: 4px;
+     border-radius: 50%;
+     background-color: white;
+}
+.eye2{
+    position: absolute;
+    top: 25%;
+    left: 18px;
+    background-color:black;
+    width:16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.mouth-nose{
+    position: absolute;
+    bottom: 8px;
+    right: 25px;
+    width: 33%;
+    height: 33px;
+    border-radius: 50%;
+    background-color:rgb(99, 54, 6);
+    
+}
+.nose{
+    background-color: #3f1d00;
+    width: 16px;
+    height: 16px;
+    margin: 3px 0 0 8px;
+    border-radius: 50%;
+}
+.mouth{
+    width: 12px;
+    height: 6px;
+    margin: auto;
+    border-bottom: 2px #3f1d00 solid;
+    border-radius: 50%;
+}
+.body{
+    position: relative;
+    background-color: #9e5418;
+    width: 100px;
+    height: 125px;
+    border-radius: 45%;
+}
+.stomach{
+    background-color: rgb(230, 169, 179);
+    width: 56px;
+    height: 85px;
+    margin: 22px;
+    border-radius: 45%;
+}
+.hand1{
+    position: absolute;
+    top: 12%;
+    left:-40px;
+    background-color: #9e5418;
+    width: 65px;
+    height: 30px;
+    border-radius: 20px 0 0 20px;
+}
+.hand2{
+    position: absolute;
+    top: 12%;
+    right:-45px;
+    background-color: #9e5418;
+    width: 65px;
+    height: 30px;
+    border-radius: 0 20px 20px 0 ;
+}
+.leg1{
+    position: absolute;
+    left: -30px;
+    bottom: 6px;
+    background-color: #9e5418;
+    width: 55px;
+    height: 30px;
+    border-radius: 20px 0 0 20px;
+}
+.leg2{
+    position: absolute;
+    right: -30px;
+    bottom: 6px;
+    background-color: #9e5418;
+    width: 55px;
+    height: 30px;
+    border-radius: 0 20px 20px 0;
+}
