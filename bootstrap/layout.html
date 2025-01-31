@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <div class="container fs-1 text-start text-light">
+        <!-- Header -->
+        <div class="row">
+            <div class="col-md-12 bg-danger my-2 py-3">Header</div>
+        </div>
+
+        <!-- Main Content Row -->
+        <div class="row gap-1">
+            <div class="col-md-9">
+                <div class="row gap-1">
+                    <div class="col bg-danger py-3">small-box</div>
+                    <div class="col bg-danger py-3">small-box</div>
+                    <div class="col bg-danger py-3">small-box</div>
+                </div>
+                <!-- Main Content -->
+                <div class="row">
+                    <div class="col bg-danger my-2" style="height:300px;">main-content</div>
+                </div>
+            </div>
+            <!-- Sidebar (Fixes height issue) -->
+            <div class="col-md bg-danger py-3 sidebar" style="height: 400px;">sidebar</div>
+        </div>
+
+        <!-- Footer -->
+        <div class="row">
+            <div class="col-md-12 bg-danger py-3">Footer</div>
+        </div>
+    </div>
+</body>
+</html>
